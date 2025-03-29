@@ -53,7 +53,7 @@ Run the follow command to provision resoruces in Azure
 azd provision
 ```
 
-If you don't run azd provision, you can create an [OpenAI resource](https://portal.azure.com/#create/Microsoft.CognitiveServicesOpenAI) and an [AI Search resource](https://portal.azure.com/#create/Microsoft.Search) in the Azure portal to get your endpoints. After it deploys, click Go to resource and view the Endpoint value.  You will also need to deploy a model, e.g. with name `chat` with model `gpt-35-turbo` and `embeddings` with model `text-embedding-3-small`
+If you don't run azd provision, you can create an [OpenAI resource](https://portal.azure.com/#create/Microsoft.CognitiveServicesOpenAI) and an [AI Search resource](https://portal.azure.com/#create/Microsoft.Search) in the Azure portal to get your endpoints. After it deploys, click Go to resource and view the Endpoint value.  You will also need to deploy a model, e.g. with name `chat` with model `gpt-4` and `embeddings` with model `text-embedding-3-small`
 
 ### Create local.settings.json (Should be in the same folder as host.json. Automatically created if you ran azd provision)
 ```json
